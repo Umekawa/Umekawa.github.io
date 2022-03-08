@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-post-template-tsx",
+    "path": "/20220227/",
+    "result": {"data":{"markdownRemark":{"html":"<p>引き続きこのサイトの準備をしている。\nNext.jsとGatsby.jsでフレームワークどちらを採用するか悩むが、markdownとの相性の良さを見てGatsby.jsを採用した。\n大会や友人のゲーム配信を見ながらダラダラとこのサイトの準備をしていたわけだが、徐々にサイトが出来上がっていくのは楽しい。\nとりあえずローカルで既存テンプレートではあるが<a href=\"https://kakioku.com/posts/2102071\">こちらを参考に</a>記事をを表示するところまではできた。\nひとまずの目標はこのサイトをちゃんと作りきること。それが終わったら学部の卒業研究レベルで止まっている、自然言語処理のキャッチアップを急ぎたい。</p>","frontmatter":{"title":"2022年2月27日","date":"2022/02/27"}}},"pageContext":{"slug":"/20220227/"}},
+    "staticQueryHashes": []}
