@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-blog-post-template-tsx",
-    "path": "/20220306/",
-    "result": {"data":{"markdownRemark":{"html":"<p>前回書いたスクリプトが若干おかしかったのに気が付いたので修正をした。（修正内容は些細なので割愛）\nその後github pageでこのサイトを上げるための諸々を書いた。\nQiita社の元同僚である@mishiwata1015の<a href=\"https://qiita.com/mishiwata1015/items/ac65efbabb4400fd95bf\">こちらの記事</a>を参考にデプロイ環境を整えた。</p>","frontmatter":{"title":"2022年03月06日","date":"2022/03/06"}}},"pageContext":{"slug":"/20220306/"}},
-    "staticQueryHashes": []}
