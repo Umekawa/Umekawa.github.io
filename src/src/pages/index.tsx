@@ -6,7 +6,7 @@ import "../components/codeblock.css"
 
 export const query = graphql`
   query MyQuery {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+    allMarkdownRemark(sort: { order: ASC, fields: [frontmatter___date] }) {
       nodes {
         id
         frontmatter {
