@@ -6,7 +6,7 @@ import "../components/codeblock.css"
 
 export const query = graphql`
   query MyQuery {
-    allMarkdownRemark {
+    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       nodes {
         id
         frontmatter {
@@ -23,7 +23,7 @@ const IndexPage = ({data}) => (
   <Layout>
     {data.allMarkdownRemark.nodes.reverse().map((node,i)=>{
       return <div key={i}>
-        <a href={`/${node.frontmatter.id}`} dangerouslySetInnerHTML={{__html: node.frontmatter.title}}/>
+        <a href={`/diary/${node.frontmatter.id}`} dangerouslySetInnerHTML={{__html: node.frontmatter.title}}/>
       </div>
     })}
     
