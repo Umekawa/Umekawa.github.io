@@ -19,14 +19,13 @@ export const query = graphql`
   }
 `
 
-const IndexPage = ({data}) => (
+const IndexPage = ({data}: {data: any}) => (
   <Layout>
-    {data.allMarkdownRemark.nodes.reverse().map((node,i)=>{
+    {data.allMarkdownRemark.nodes.reverse().map((node: { frontmatter: { id: any; title: any } },i: React.Key | null | undefined)=>{
       return <div key={i}>
         <a href={`/diary/${node.frontmatter.id}`} dangerouslySetInnerHTML={{__html: node.frontmatter.title}}/>
       </div>
     })}
-    
   </Layout>
 )
 
